@@ -63,7 +63,7 @@ cards.forEach(card =>
 
       if (foundCardsCount === cards.length) {
         setTimeout(() => {
-          alert(`Congradulations! You won in ${movesCount} moves!`);
+          alert(`Congratulations! You won in ${movesCount} moves!`);
         }, 1000);
       }
       return;
